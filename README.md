@@ -2,32 +2,42 @@
 
 # 📦 Py Converter To EXE / APP
 
-**Graphical Python packaging helper by Swir**  
-**Graficzny pomocnik do pakowania programów Python autorstwa Swir**
+### GUI Frontend for Packaging Python Scripts into Desktop Apps
+
+**PyInstaller • py2app • Tkinter • Windows EXE • macOS APP**
 
 ![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
-![PyInstaller](https://img.shields.io/badge/Windows-PyInstaller-0078D4)
-![py2app](https://img.shields.io/badge/macOS-py2app-111111?logo=apple)
-![Author](https://img.shields.io/badge/Author-Swir-ff4fa3)
+![Windows](https://img.shields.io/badge/Windows-PyInstaller-0078D6?logo=windows&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-py2app-111111?logo=apple&logoColor=white)
+![GUI](https://img.shields.io/badge/GUI-Tkinter-2ea44f)
 
 </div>
 
 ---
 
-## 🇬🇧 English
+## 🚀 About
 
-Py Converter To EXE is a Tkinter desktop front-end that simplifies packaging Python scripts into standalone applications. The interface lets you select a `.py` file, choose the target type and watch packaging output in an integrated terminal area.
+**Py Converter To EXE / APP** is a graphical Python packaging helper that makes it easier to turn `.py` scripts into standalone desktop applications. Select a Python file, choose the target packaging mode and watch the build process from an integrated output panel.
 
-### ✨ Features
-- graphical `.py` file selection
-- Windows `.exe` target
-- macOS `.app` target
-- console / no-console option
-- packaging performed in a background thread
-- integrated build-output panel
-- platform-aware packaging workflow
+It is designed for users searching for a **Python to EXE converter**, **PyInstaller GUI**, **Python to APP converter**, **py2app GUI**, **Tkinter packaging tool** or a simple frontend for building desktop executables from Python scripts.
 
-### 🚀 Installation
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---|---|
+| 📂 Python file picker | Select the `.py` script to package |
+| 🪟 Windows EXE | Build Windows executables with PyInstaller |
+| 🍎 macOS APP | Build application bundles with py2app |
+| 🖥️ Console control | Choose console / no-console packaging mode |
+| 🧵 Background build | Packaging runs without freezing the GUI |
+| 📟 Build log | Integrated output / terminal panel |
+| 🧭 Platform-aware | Uses packaging tools appropriate to the host OS |
+
+---
+
+## 📦 Installation
 
 ```bash
 git clone https://github.com/Swir/Py-Converter-to-exe.git
@@ -36,31 +46,28 @@ pip install -r requirements.txt
 python converterpy.py
 ```
 
-> Windows builds use PyInstaller; macOS application bundles require a compatible macOS environment and py2app.
+---
+
+## ⚠️ Platform Note
+
+Desktop packages normally need to be built on the target operating system. A Windows `.exe` should be built in a compatible Windows environment, while a macOS `.app` requires macOS and a compatible py2app setup.
 
 ---
 
-## 🇵🇱 Polski
+## 🔍 Discoverability
 
-Py Converter To EXE to graficzna nakładka Tkinter ułatwiająca pakowanie skryptów Python do samodzielnych aplikacji. Wybierasz plik `.py`, typ wynikowy i obserwujesz przebieg procesu w zintegrowanym polu terminala.
+`python to exe converter` • `pyinstaller gui` • `python exe builder` • `python to app converter` • `py2app gui` • `python packaging gui` • `tkinter pyinstaller frontend` • `build exe from python`
 
-### ✨ Funkcje
-- graficzny wybór pliku `.py`
-- generowanie `.exe` dla Windows
-- generowanie `.app` dla macOS
-- opcja z konsolą / bez konsoli
-- pakowanie w osobnym wątku
-- podgląd komunikatów procesu
-- obsługa zależna od systemu operacyjnego
+---
 
-### 🚀 Instalacja
+## 👨‍💻 Author
 
-```bash
-pip install -r requirements.txt
-python converterpy.py
-```
+Developed by **Swir** — [@Swir](https://github.com/Swir)
 
-> Pakiety należy budować na odpowiednim systemie docelowym; aplikacja nie zastępuje wymagań PyInstaller/py2app.
+<div align="center">
 
-## 👤 Author / Autor
-Developed by **Swir**.
+### 📦 Select the script • Choose the target • Build the app
+
+⭐ **Star the repository if it helps your Python workflow!**
+
+</div>
