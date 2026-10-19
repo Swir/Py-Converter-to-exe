@@ -15,6 +15,12 @@
 
 </div>
 
+## 📸 Screenshot
+
+![Py-Converter-to-exe application screenshot](docs/screenshots/application.jpg)
+
+Initial Python executable converter window on Windows.
+
 # Py Converter to EXE
 
 A small Tkinter desktop frontend for selecting a Python script and running PyInstaller with one-file packaging while streaming the build output inside the application.
